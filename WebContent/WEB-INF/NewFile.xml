@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<School_Erp>
+	<school>
+		<School_name>
+			B.K Gupta school
+		</School_name>
+		<Address>Nagarbhavi Banglore</Address>
+		<Stype>Nursary</Stype>
+	</school>
+	
+	
+	<School_Type>
+		<TypeOne Clsvlaue="Nursary">
+		<MaxNumber_Nursarystudents>180</MaxNumber_Nursarystudents>
+		<CLASSES>
+			<CLASS>LKG</CLASS>
+			<CLASS>UKG</CLASS>
+		</CLASSES>
+		<class1 name="LKG">
+			<total_subject>6</total_subject>
+			<MandotorySubject>4</MandotorySubject>
+			<OptionalSubject>2</OptionalSubject>
+			<MaxNumber_NursaryLkgSection>3</MaxNumber_NursaryLkgSection>
+			<MaxNumber_NursaryLkgStudent>90</MaxNumber_NursaryLkgStudent>
+			<MaxNumber_Studentpersection>30</MaxNumber_Studentpersection>
+			<Manatory_sub>
+			
+				<sub cls="LKG">Engllish</sub>
+				<sub cls="LKG">Kannada</sub>
+				<sub cls="LKG">Hindi</sub>
+				<sub cls="LKG">Mathmetics</sub>
+			</Manatory_sub>
+			<optional_subject>
+			
+				<sub cls="LKG">Science</sub>
+				<sub cls="LKG">Urdu</sub>
+				<sub cls="LKG">Sanskrit</sub>
+				<sub cls="LKG">Social</sub>
+			</optional_subject>
+			<sections>
+				<section cls="LKG">A</section>
+				<section cls="LKG">B</section>
+				<section cls="LKG">C</section>
+				<section cls="UKG">D</section>
+				<section cls="UKG">E</section>
+				<section cls="UKG">F</section>
+			</sections>
+		</class1>
+		<class2 name="UKG">
+		<section sec="A">
+				<section_student>15</section_student>
+			</section>
+			<section sec="B">
+				<section_student>15</section_student>
+			</section>
+			<section sec="C">
+				<section_student>15</section_student>
+			</section>
+		</class2>
+		</TypeOne>
+		<TypeTwo>Primary</TypeTwo>
+		<TypeThree>High School</TypeThree>
+	</School_Type>
+</School_Erp>

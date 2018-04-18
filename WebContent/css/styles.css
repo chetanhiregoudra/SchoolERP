@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "untitled-font-2";
+  src:url("fonts/untitled-font-2.eot");
+  src:url("fonts/untitled-font-2.eot?#iefix") format("embedded-opentype"),
+    url("fonts/untitled-font-2.woff") format("woff"),
+    url("fonts/untitled-font-2.ttf") format("truetype"),
+    url("fonts/untitled-font-2.svg#untitled-font-2") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.icon-1x{
+	font-size:1.5em;
+	color:#362d82;
+}
+.icon-2x{
+	font-size:2em;
+	color:#362d82;
+}
+.icon-3x{
+	font-size:3em;
+}
+.icon-4x{
+	font-size:4em;
+}
+.icon-5x{
+	font-size:5em;
+}
+[data-icon]:before {
+  font-family: "untitled-font-2" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "untitled-font-2" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-o2sat:before {
+  content: "\61";
+}
+.icon-respiratory:before {
+  content: "\62";
+}
+.icon-patho:before {
+  content: "\63";
+}
+.icon-dig:before {
+  content: "\64";
+}
+.icon-familyhistory:before {
+  content: "\65";
+}
+.icon-password:before {
+  content: "\66";
+}
+.icon-nrse:before {
+  content: "\67";
+}
+.icon-exam:before {
+  content: "\68";
+}
+.icon-address:before {
+  content: "\69";
+}
+.icon-admin:before {
+  content: "\6a";
+}
+.icon-age:before {
+  content: "\6b";
+}
+.icon-alcohol:before {
+  content: "\6c";
+}
+.icon-allergy:before {
+  content: "\6d";
+}
+.icon-attachment:before {
+  content: "\6e";
+}
+.icon-batchno:before {
+  content: "\6f";
+}
+.icon-bloodsugar:before {
+  content: "\70";
+}
+.icon-bloodsugar-1:before {
+  content: "\71";
+}
+.icon-bmi:before {
+  content: "\72";
+}
+.icon-bp:before {
+  content: "\73";
+}
+.icon-calender:before {
+  content: "\74";
+}
+.icon-complaints:before {
+  content: "\75";
+}
+.icon-consultation:before {
+  content: "\76";
+}
+.icon-diagnosis:before {
+  content: "\77";
+}
+.icon-doctor:before {
+  content: "\78";
+}
+.icon-duration:before {
+  content: "\79";
+}
+.icon-email:before {
+  content: "\7a";
+}
+.icon-emergency:before {
+  content: "\41";
+}
+.icon-examination:before {
+  content: "\42";
+}
+.icon-familyhistory-1:before {
+  content: "\43";
+}
+.icon-foodstyle:before {
+  content: "\44";
+}
+.icon-frequency:before {
+  content: "\45";
+}
+.icon-heartrate:before {
+  content: "\46";
+}
+.icon-height:before {
+  content: "\47";
+}
+.icon-info:before {
+  content: "\48";
+}
+.icon-lab:before {
+  content: "\49";
+}
+.icon-lifestyle:before {
+  content: "\4a";
+}
+.icon-medhistory:before {
+  content: "\4b";
+}
+.icon-medicine:before {
+  content: "\4c";
+}
+.icon-nurse:before {
+  content: "\4d";
+}
+.icon-radiology:before {
+  content: "\4e";
+}
+.icon-reception:before {
+  content: "\4f";
+}
+.icon-referrals:before {
+  content: "\50";
+}
+.icon-smoking:before {
+  content: "\51";
+}
+.icon-temp:before {
+  content: "\52";
+}
+.icon-vaccine:before {
+  content: "\53";
+}
+.icon-weight:before {
+  content: "\54";
+}
+.icon-allery:before {
+  content: "\55";
+}
+.icon-medical:before {
+  content: "\56";
+}
+.icon-lifestyle-1:before {
+  content: "\57";
+}
+.icon-o2:before {
+  content: "\58";
+}
+.icon-rspy:before {
+  content: "\59";
+}
+.icon-digno:before {
+  content: "\5a";
+}
+.icon-o2sat-6:before {
+  content: "\30";
+}
+.icon-fhistory:before {
+  content: "\31";
+}
+.icon-medicine-1:before {
+  content: "\32";
+}
+.icon-allgy:before {
+  content: "\33";
+}
+.icon-microscope:before {
+  content: "\34";
+}
+.icon-alstop:before {
+  content: "\35";
+}

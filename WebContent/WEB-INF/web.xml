@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://java.sun.com/xml/ns/javaee" xmlns:javaee="http://xmlns.jcp.org/xml/ns/javaee"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+    version="3.0">
+  <!-- To save as <CATALINA_HOME>\webapps\helloservlet\WEB-INF\web.xml -->
+ 
+   <servlet>
+      <servlet-name>MySchool</servlet-name>
+      <servlet-class>com.erp.servlet.MySchool</servlet-class>
+	  <load-on-startup>1</load-on-startup>
+   </servlet>
+    
+   <!-- Note: All <servlet> elements MUST be grouped together and
+         placed IN FRONT of the <servlet-mapping> elements -->
+ 
+   <servlet-mapping>
+      <servlet-name>MySchool</servlet-name>
+      <url-pattern>/action</url-pattern>
+   </servlet-mapping>
+   <session-config>
+        <session-timeout>-1</session-timeout>
+</session-config>
+   
+</web-app>
